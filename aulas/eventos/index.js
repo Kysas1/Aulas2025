@@ -16,5 +16,4 @@ function clicou(){
 function focado(){
     let texto1 = document.getElementById('txt1');
     texto1.value = ''
-    
 }
