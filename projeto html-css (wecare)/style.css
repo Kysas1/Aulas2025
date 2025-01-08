@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    height: 90vh;
+    text-align: center;
+    background: linear-gradient(  rgba(137, 43, 226, 0.624),rgba(255, 68, 0, 0.495));
+}
+
+header {
+    margin:10vh;
+}
+
+header ul li {
+     list-style: none;
+}
+
+button {
+    margin: 3px;
+    background-color: blueviolet;
+    color: white;
+    width: 150px;
+    height: 40px;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.773);
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px 22px;
+    cursor: pointer;
+}
+
+
+button:active {
+    box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.773);
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(253, 253, 253);
+}
+
+header a  {
+    color: blueviolet;
+    text-decoration: none;
+    padding-left: 7%;
+    font-size: 19px;
+    font-weight: bolder;
+}
+button:hover {
+    font-weight: bolder;
+    transition: 1s;
+    font-size: 17px;
+    background-color: orangered;
+}
+
+header a:hover {
+    font-weight: bolder;
+    font-size: 26px;
+    color: blueviolet;
+    transition: 0.7s;
+}
+
+header a:active {
+    color: orangered;
+}
+
+.tudo {
+    display: inline-flex;
+    padding: 5%;
+    background-color: #ccc;
+    width: 90vw;
+    height: 50vh;
+    border: 1px solid orangered;
+    box-shadow: 1px 1px 3px rgba(137, 43, 226, 0.749);
+    
+}
+
+.imagem {
+    width: 50vw;
+}
+
+h1 {
+    font-size: 50px;
+    color: blueviolet;
+    margin-bottom: 33px;
+}
+
+span {
+    color: orangered;
+}
+
+p {
+    color: orangered;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+
