@@ -26,7 +26,7 @@ header ul li {
      list-style: none;
 }
 
-button {
+.login {
     margin: 3px;
     background-color: blueviolet;
     color: white;
@@ -39,12 +39,38 @@ button {
     cursor: pointer;
 }
 
+.explore {
+    margin: 3px;
+    background-color: orangered;
+    color: white;
+    width: 150px;
+    height: 40px;
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.773);
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px 22px;
+    cursor: pointer;
+}
 
-button:active {
+.explore:hover {
+    font-weight: bolder;
+    transition: 1s;
+    background-color: blueviolet;
+}
+
+
+.login:active {
     box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.773);
     font-size: 12px;
     font-weight: bold;
-    background-color: rgb(253, 253, 253);
+    background-color: rgba(253, 253, 253, 0.166);
+}
+
+.explore:active {
+    box-shadow: inset 2px 2px 0 rgba(0, 0, 0, 0.773);
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgba(253, 253, 253, 0.166);
 }
 
 header a  {
