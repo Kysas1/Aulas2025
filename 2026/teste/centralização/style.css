@@ -1,0 +1,19 @@
+article {
+    background: purple;
+    height: 400px;
+    position: relative
+}
+
+div {
+    background-color: gray;
+    height: 200px;
+    width: 320px;
+    position: absolute;
+    left: 50%; 
+    top:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    transform: translate(-50% , -50%);
+}
