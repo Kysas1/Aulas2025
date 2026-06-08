@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+header {
+    background-image: url(/2026/dmc/img/X-HIH1.gif);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    padding-bottom: 10px;
+    font-variant: small-caps;
+    color: rgba(176, 3, 3, 0.931);
+    text-shadow: 1px 1px 1px rgba(0, 0, 255, 0.347);
+}
+
+h2 {
+    color: rgba(176, 3, 3, 0.931);
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+div {
+    padding: 10vh 5vh;
+    line-height: 2.9em;
+    font-family: "Chelsea Market", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+div p {
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 5px;
+    
+}
+div.imagem { 
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+div.imagem p {
+    background-color: rgba(0, 0, 0, 0.715);
+    width: 400px;
+    padding: 10px;
+    border-radius: 9px;
+    color: white;
+    text-shadow: red 1px 1px;
+}
+
+div.normal {
+    background-color: rgba(0, 0, 255, 0.108);
+}
+
+div#img1 {
+    background-image: url(/2026/dmc/img/devil-may-cry-5-game-ld-1366x768.jpg);
+    background-position: top center;
+    
+}
+
+div#img2 {
+    background-image: url(/2026/dmc/img/dante-in-devil-may-cry-5-4k-0r-1366x768.jpg);
+}
+
+div#img3 {
+    background-image: url(/2026/dmc/img/devil-may-cry-5-game-4k-we-1366x768.jpg);
+}
+
+div#img4 {
+    background-image: url(/2026/dmc/img/nico-devil-may-cry-5-2020-4k-96-1366x768.jpg);
+}
+
+footer {
+    text-align: center;
+    background-color: purple;
+    padding-top: 10px;
+    border: 2px , solid , black;
+}
+
+footer p {
+    color: white;
+}
+
+a { 
+    color :white ;
+    text-decoration: none;
+
+}
+
+a:hover {
+    margin: 10px;
+    padding: 5px;
+    transition: 2s;
+    color: rgb(0, 0, 0);
+}
