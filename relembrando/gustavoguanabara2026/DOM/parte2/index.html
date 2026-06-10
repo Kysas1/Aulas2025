@@ -5,11 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dom</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input {
+            width: 90px;
+        }
+        .btn {
+            width: 50px;
+            
+        }
+        div {
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
     <div class="pai" id="p" onclick="clicar()">
         interaja
     </div>
+    <h1>somando valores</h1>
+    <input type="number" id="txtn1"> +
+    <input type="number" id="txtn2">
+    <input class="btn" type="button" value="somar" id="calculo">
+    <div id="res">resultado</div>
     <script src="script.js"></script>
 </body>
 </html>

@@ -26,3 +26,36 @@ function saiu(){
     a.style.color = 'white';
     a.style.transition = '1.0s'
 }
+
+let calculo = document.getElementById('calculo');
+calculo.addEventListener('click',somar)
+calculo.addEventListener('mouseenter', mouseenter)
+calculo.addEventListener('mouseout',mouseout)
+function somar(){
+    let tn1 = document.getElementById('txtn1');
+    let tn2 = document.getElementById('txtn2');
+    let res = document.getElementById('res');
+    let n1 = Number(tn1.value);
+    let n2 = Number(tn2.value);
+    let s = n1 + n2 
+    res.innerHTML = `A soma entre ${n1} e ${n2} deu ${s}`
+    calculo.style.backgroundColor ='white'
+        if (n1 == " "){
+            res.innerHTML = 'Por favor, insira um valor.'
+        };
+}
+
+function mouseenter(){
+    calculo.style.backgroundColor = 'red'
+    calculo.style.cursor = 'pointer'
+    calculo.style.width = '70px;'
+    calculo.style.transition = '1s'
+}
+
+
+
+function mouseout(){
+    calculo.style.backgroundColor = 'white'
+    calculo.style.transition = '1s'
+}
+
