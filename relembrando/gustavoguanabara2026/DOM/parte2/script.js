@@ -31,6 +31,9 @@ let calculo = document.getElementById('calculo');
 calculo.addEventListener('click',somar)
 calculo.addEventListener('mouseenter', mouseenter)
 calculo.addEventListener('mouseout',mouseout)
+
+
+
 function somar(){
     let tn1 = document.getElementById('txtn1');
     let tn2 = document.getElementById('txtn2');
@@ -43,6 +46,13 @@ function somar(){
         if (n1 == " "){
             res.innerHTML = 'Por favor, insira um valor.'
         };
+    let reset = document.getElementById('reset')
+    reset.addEventListener('click', resetar)
+    function resetar(){
+        tn1.value = ' '
+        tn2.value = ' '
+        res.textContent = ' Insira os numeros para somar '
+    }
 }
 
 function mouseenter(){
@@ -58,4 +68,5 @@ function mouseout(){
     calculo.style.backgroundColor = 'white'
     calculo.style.transition = '1s'
 }
+
 
